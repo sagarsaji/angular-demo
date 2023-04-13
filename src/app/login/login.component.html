@@ -1,0 +1,14 @@
+<div class="container">
+    <div class="row">
+        <label >username </label>
+        <input type="text" name="username" id="username" [(ngModel)]="User.username">
+    </div>
+    <div class="row">
+        <label >password</label>
+        <input type="text" name="pass" id="pass"[(ngModel)]="User.password">
+    </div>
+    <button type="submit" (click)="getdata()">submit</button><br>
+    <span>"ms"</span>
+
+    <span style="color: blueviolet;">{{message}}</span>
+</div>
